@@ -1,0 +1,237 @@
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Castoro', serif;
+    color: #40514E;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.50rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Inconsolata', monospace;
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Castoro', serif;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    width: 5%;
+    border-style: none;
+    border-bottom: #EAF6F6 dotted 8px;
+    margin: 100px auto;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container {
+    padding: 100px;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.skill-row, .hobby-row {
+    margin: 100px auto;
+    text-align: left;
+}
+
+.bottom-container {
+    padding: 30px;
+    background-color: #66BFBF;
+    line-height: 2;
+    color: #EAF6F6;
+ }
+
+.programmer {
+    font-weight: normal;
+}
+
+.university {
+    margin: 0 0;
+}
+
+.footer {
+    font-size: 0.75rem;
+}
+
+.language-img, .book-img {
+    width: 20%;
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+.travel-img, .paint-img, .computer-img {    
+    width: 20%;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.my-photo {
+    height: 200px;
+    width: 200px;
+}
+
+.BUTTON_contact {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #EAF6F6;
+    font-family: 'Castoro', serif;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.BUTTON_contact:hover {
+    border: solid #337FED 0;
+    background: #30E3CD;
+    background-image: -webkit-linear-gradient(top, #30E3CD, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CD, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CD, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CD, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CD, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0 0;
+        padding: 0 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    hr {
+        width: 30%;
+        border-style: none;
+        border-bottom: #EAF6F6 dotted 5px;
+        margin: 50px auto;
+    }
+
+    .top-container {
+        width: 100%;
+        background-color: #EAF6F6;
+        padding-top: 50px;
+        line-height: 1;
+        position: relative;
+    }
+    
+    .top-cloud {
+        right: 30px;
+        top: 20px;
+        width: 40%;
+    }
+    
+    .bottom-cloud {
+        width: 0px;
+        height: 0px;
+    }
+
+    .mountain {
+        width: 70%;
+        height: 70%;
+    }
+    
+    .middle-container {
+        padding: 50px 10px;
+        width: 100%;
+        margin: 0 0;
+        line-height: 1.5;
+    }
+    .my-photo {
+        height: 150px;
+        width: 150px;
+    }
+    .skill-row, .profile, .hobby-row {
+        margin: 0 20px 0 0;
+    }
+
+    .contact-me {
+        margin: 0 20px;
+    }
+    
+    .bottom-container {
+        text-align: center;
+        padding: 20px;
+        background-color: #66BFBF;
+        line-height: 1.5;
+        color: #EAF6F6;
+     }
+
+    .footer {
+        text-align: center;
+    }
+
+    .BUTTON_contact {
+        font-size: 14px;
+        font-weight: 100;
+     }
+
+}
